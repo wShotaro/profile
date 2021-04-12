@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  /*font-family: Montserrat, Avenir, sans-serif;*/
+}
+
+/************************Profile section ****************************/
+.profile {
+  background-image: url(../images/prof_img1.jpg);
+  background-repeat: no-repeat;
+  height: 520px;
+  width: 450px;
+  filter: grayscale(50%);
+  /* filter: drop-shadow(); */
+  position: absolute;
+  top: 690px;
+  margin-left: 27%;
+  transform: translate(-50%, 0);
+}
+
+/************************Top container section ****************************/
+.top-container {
+  text-align: center;
+  position: relative;
+  height: 750px;
+}
+
+.top-container::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/t-bg.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
+  /*filter: grayscale(150%);*/
+  /* filter:brightness(100%); */
+  opacity: 0.35;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hello {
+  position: absolute;
+  font-size: 80px;
+  width: 100%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.sub {
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+/************************About container section ****************************/
+.about-container {
+  background-color: #fcfaf7;
+  height: 850px;
+  position: relative;
+}
+
+.about-table {
+  position: absolute;
+  top: 230px;
+  /* right: 150px */
+  left: 55%;
+  transform: translate(-50% 0);
+}
+
+.name {
+  /* position: absolute; */
+  width: auto;
+  top: 70px;
+  right: 100px;
+}
+
+.name-sub {
+  /* position: absolute; */
+  width: 450px;
+  top: 85px;
+  right: 100px;
+  /* padding: 20px 0; */
+}
+
+.prof-texts {
+  /* position: absolute; */
+  width: 450px;
+  top: 150px;
+  right: 100px;
+  line-height: 2;
+}
+
+#hr1 {
+  position: absolute;
+  border-top: 1px;
+  border-color: rgb(97, 90, 87);
+  width: 80%;
+  top: 800px;
+  left: 10%;
+  /* transform: translate(-50% 0); */
+  background-color: #fcfaf7;
+}
+
+
+/************************Programming language list container section ****************************/
+.language-container {
+  position: relative;
+  background-color: #fcfaf7;
+  height: 650px;
+}
+
+img {
+  width: 110px;
+  /* filter: grayscale(1); */
+  opacity: 0.7;
+}
+
+.lang-title {
+  margin-top: 0;
+  padding-top: 70px;
+  display:flex;
+  justify-content: center;
+}
+
+.lang-tbl {
+  width: 1000px;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  margin-top: 90px;
+  margin-left: -415px;
+
+}
+
+.lang-name {
+  font-size: 20.8px;
+  font-weight: bolder;
+  line-height: 80px;
+}
+
+#hr2 {
+  position: absolute;
+  border-top: 1px;
+  border-color: rgb(97, 90, 87);
+  width: 80%;
+  top: 590px;
+  left: 10%;
+  /* transform: translate(-50% 0); */
+  background-color: #fcfaf7;
+}
